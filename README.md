@@ -1,22 +1,62 @@
-# E-commerce Back End Starter Code
+# E-Commerce Backend
 
-## User Story
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* AS A manager at an internet retail company
-* I WANT a back end for my e-commerce website that uses the latest technologies
-* SO THAT my company can compete with other e-commerce companies
+View a demo of this application here: [https://youtu.be/hB7TQu2bUHo](https://youtu.be/hB7TQu2bUHo)
 
-## Acceptance Criteria
+## Table of Contents
 
-* GIVEN a functional Express.js API
-* WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-* THEN I am able to connect to a database using Sequelize
-* WHEN I enter schema and seed commands
-* THEN a development database is created and is seeded with test data
-* WHEN I enter the command to invoke the application
-* THEN my server is started and the Sequelize models are synced to the MySQL database
-* WHEN I open API GET routes in Insomnia for categories, products, or tags
-* THEN the data for each of these routes is displayed in a formatted JSON
-* WHEN I test API POST, PUT, and DELETE routes in Insomnia
-* THEN I am able to successfully create, update, and delete data in my database
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Questions](#questions)
 
+## Description
+
+*Built using:*
+- Object-Relational Mapping in Node.js with Sequelize
+
+This application sets up the backend for a basic online web store. Object relational mapping with Sequalize was used to map objects to relational database systems.
+
+## Installation
+
+*To set up this file locally...*
+
+ - Clone this repo to your computer
+ - Run `npm i` to install the dependencies
+ - Start a SQL session and run `source schema.sql` to create the database
+ - You can run `npm run seed` to populate the database with test data
+
+## Usage
+
+To start the application: `npm start`
+
+You will see a note in the command line that `App listening on port 3001!`.
+
+Use an applicaiton like **insomnia** to get, post, put, or delete data from the api routes:
+
+- /api/categories
+- /api/products
+- /api/tags
+
+## Contributing
+
+Starter code for this application was provided by Rutger's Coding Bootcamp. It was cloned from this [repository](https://github.com/coding-boot-camp/fantastic-umbrella).
+
+If you would like to contribute to this project, submit a **pull request** or reach out directly via **email** linked below.
+
+## License
+
+Copyright © 2022 Christine Diienno
+
+This project is licensed under the [MIT License](https://mit-license.org/).
+
+## Questions
+
+Do you have any questions? 
+
+You can find my github profile here: [mrsdno](https://github.com/mrsdno)
+
+Or you can email me here: [christine@dno.dev](mailto:christine@dno.dev)
